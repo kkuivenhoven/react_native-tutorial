@@ -1,0 +1,19 @@
+React Native Tutorial Notes:
+
+<> map() method:
+	• creates a new array with the results of calling a function for every array element
+	• map() method calls the provided function once for each element in an array, in order
+	• NOTES:
+		- map() does NOT execute the function for array elements without values
+		- map() does NOT change the original array
+	• syntax:
+		array.map(function(currentValue, index, arr), thisValue)
+			- currentValue = required; value of current element
+			- index = optional; array index of current element
+			- arr = optional; array object the current element belongs to
+			- thisValue = optional; value to be passed to function to be used as its "this" value; if this param is empty, the value 'undefined' will be passed as its "this" value
+	• returns an array containing the results of calling the provided function for each element in the original array
+
+
+
+
